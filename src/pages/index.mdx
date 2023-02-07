@@ -1,0 +1,50 @@
+---
+layout: "../layouts/ProseLayout.astro"
+title: Christopher Milan
+description: Christopher Milan's Personal Site
+---
+import pfp from "../images/chris.jpg";
+import { Picture } from "@astrojs/image/components";
+
+<div class="flex gap-6 justify-around items-center">
+  <div class="prose-2xl">
+    # Hey, I'm Chris!
+
+    I study Math and CS at UCLA.
+  </div>
+  <Picture
+    src={pfp}
+    alt="profile picture"
+    sizes="256"
+    widths={[256]}
+    aspectRatio="1:1"
+    quality={100}
+    class="rounded-lg w-64 hidden sm:block"
+  />
+</div>
+
+I am an undergrad studying Mathematics of Computation at University of
+California, Los Angeles. I enjoy solving complex problems with elegant solutions
+in both Math and CS. Check out some of my [projects](/projects) for more
+details.
+
+This year, I'm working at the
+[UCLA Cardiac Arrhythmia Center](https://www.uclahealth.org/locations/cardiac-arrhythmia-center),
+studying the applications of Machine Learning to heart Rythym analysis, through
+techniques such as Wavelet Transform and Convolutional Neural Networks, in
+Python.
+
+I am also currently the Research Head for
+[DataRes at UCLA](https://ucladatares.com/), where I lead a small team of
+passionate undergraduates interested in Machine Learning research, helping to
+orchestrate their projects. For instance, this quarter, our theme is Geometric
+Deep Learning, while last quarter, we looked at applications of Transformer
+models for Time Series data.
+
+Outside of academics, I am the Practice Coordinator for the UCLA Sailing Team. I also
+enjoying baking, photography (check back here later if you want to see some
+of my photos!), and exporing the outdoors, as much as I can in LA ;).
+
+---
+
+Interested in reaching out? Shoot me an email: chrismilan AT ucla DOT edu

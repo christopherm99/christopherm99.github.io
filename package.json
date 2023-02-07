@@ -11,6 +11,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.6"
+    "@astrojs/image": "^0.14.0",
+    "@astrojs/mdx": "^0.16.0",
+    "@astrojs/tailwind": "^3.0.1",
+    "astro": "^2.0.6",
+    "sharp": "^0.31.3",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9"
   }
 }
