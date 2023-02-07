@@ -3,7 +3,7 @@ name: Build and Deploy on GitHub Pages
 concurrency: deploy
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
   push:
     branches:
       - master
