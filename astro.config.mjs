@@ -13,5 +13,6 @@ import image from "@astrojs/image";
 export default defineConfig({
   integrations: [tailwind(), mdx(), image({
     serviceEntryPoint: "@astrojs/image/sharp"
-  })]
+  })],
+  site: "https://christopherm99.github.io",
 });
